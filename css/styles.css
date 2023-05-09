@@ -103,7 +103,7 @@ img {
 .nav-link:focus {
   color: #404bbf;
 }
-.nav-link::after {
+.nav-link.active::after {
   position: absolute;
   bottom: -1px;
   content: "";
@@ -113,9 +113,9 @@ img {
   border-radius: 2px;
   background-color: #404bbf;
 }
-.nav-link.active::after {
+/* .nav-link.active::after {
   background-color: #404bbf;
-}
+} */
 .contacts-list {
   display: flex;
   gap: 40px;
