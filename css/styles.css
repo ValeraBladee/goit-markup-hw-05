@@ -111,11 +111,10 @@ img {
   width: 100%;
   height: 4px;
   border-radius: 2px;
+}
+.nav-link.active::after {
   background-color: #404bbf;
 }
-/* .nav-link.active::after {
-  background-color: #404bbf;
-} */
 .contacts-list {
   display: flex;
   gap: 40px;
